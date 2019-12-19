@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"><channel><title>Images and words, Emmanuelle Gouillart's blog - Emmanuelle Gouillart</title><link>http://emmanuelle.github.io/</link><description></description><lastBuildDate>Sun, 20 Mar 2016 00:00:00 +0100</lastBuildDate><item><title>Euroscipy tutorials: results from the opinion poll</title><link>http://emmanuelle.github.io/euroscipy-tutorials-results-from-the-opinion-poll.html</link><description>&lt;p&gt;As the new tutorial chair for the next &lt;a href="https://www.euroscipy.org/"&gt;Euroscipy
+conference&lt;/a&gt;, I was thinking this January
+about the difficult choice of possible topics for advanced tutorials.
+Euroscipy is the annual European conference on Scientific Python; it is
+organized with two days of tutorials and two days of conference (keynotes
+and contributed talks), with attendees from academia, industry and
+start-ups.&lt;/p&gt;
+&lt;p&gt;While tutorials of the introduction track always covers a core of
+packages and skills that are essential to beginners, advanced users have
+enjoyed quite a large variety of topics during the &lt;a href="https://www.euroscipy.org/2015/schedule/esp2015-tutorials/"&gt;advanced tutorial
+track&lt;/a&gt; of the
+last conference editions. Attendees have various backgrounds and
+expectations, from getting bleeding-edge news about the latest cool
+packages to improving their numerical skills, learning about coding
+best practices, or simply using core packages in a more efficient and
+advanced way. How to find the right balance between topics answering
+these different needs? A friend then suggested …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Emmanuelle Gouillart</dc:creator><pubDate>Sun, 20 Mar 2016 00:00:00 +0100</pubDate><guid isPermaLink="false">tag:emmanuelle.github.io,2016-03-20:/euroscipy-tutorials-results-from-the-opinion-poll.html</guid><category>miscellaneous</category><category>python</category><category>science</category><category>euroscipy</category><category>tutorials</category></item><item><title>Tools and tips for documenting scientific Python projects</title><link>http://emmanuelle.github.io/tools-and-tips-for-documenting-scientific-python-projects.html</link><description>&lt;p&gt;A colleague recently asked me for tips for the documentation of his new
+in-house Python project. Dozens of webpages explain
+&lt;a href="http://docs.writethedocs.org/writing/beginners-guide-to-docs/"&gt;why&lt;/a&gt; and
+&lt;a href="http://docs.python-guide.org/en/latest/writing/documentation/"&gt;how to&lt;/a&gt;
+write documentation, including for Python packages. Nevertheless,
+scientific projects have some specificities, so I thought it could be
+worth sharing here some points that we discussed together. Don't think
+that these tips only apply to "big projects": as long as you expect other
+people than yourself to use the code (or to develop it), good
+documentation can be a game-changer no matter the scale of the project.&lt;/p&gt;
+&lt;p&gt;A first and counter-intuitive point is that &lt;strong&gt;code matters as much as "real
+documentation"&lt;/strong&gt;. A &lt;a href="http://hintjens.com/blog:94"&gt;clear, concise and well-thought
+API&lt;/a&gt; will make your users love your project
+much more that pages of explanations attempting to make up for a
+cluttered or clumsy API. As for developers, short functions, or variable
+names used consistently over the package, are more efficient …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Emmanuelle Gouillart</dc:creator><pubDate>Tue, 22 Dec 2015 00:00:00 +0100</pubDate><guid isPermaLink="false">tag:emmanuelle.github.io,2015-12-22:/tools-and-tips-for-documenting-scientific-python-projects.html</guid><category>miscellaneous</category><category>python</category><category>science</category><category>euroscipy</category><category>documentation</category></item><item><title>What is your typical image processing usecase?</title><link>http://emmanuelle.github.io/what-is-your-typical-image-processing-usecase.html</link><description>&lt;p&gt;Image processing is used for a variety of applications, from the
+segmentation of organs in medical imaging to the detection of objects in
+astrophysics. At least, that's what we say to introduce the applications
+of image processing during presentations on
+&lt;a href="http://scikit-image.org/"&gt;scikit-image&lt;/a&gt;, such as today's tutorial at
+&lt;a href="https://www.euroscipy.org/2015/schedule/presentation/70/"&gt;Euroscipy
+2015&lt;/a&gt;. For such
+tutorials, we select applications that we think are typical of broad
+interest, such as the segmentation of objects. But let's face it, it is
+all too easy to mix up what is typical and of broad /generalinterest, and
+what is the kind of problems that ones encounters in his/her own work.&lt;/p&gt;
+&lt;p&gt;Therefore, I would love to hear more about typical problems that
+people wish to solve using image processing. If you're using image
+processing, please leave a comment on this post, including:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;a few words about the field and the application&lt;/li&gt;
+&lt;li&gt;a link to a typical image, if possible …&lt;/li&gt;&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Emmanuelle Gouillart</dc:creator><pubDate>Wed, 26 Aug 2015 00:00:00 +0200</pubDate><guid isPermaLink="false">tag:emmanuelle.github.io,2015-08-26:/what-is-your-typical-image-processing-usecase.html</guid><category>miscellaneous</category><category>python</category><category>science</category><category>scikit-image</category><category>euroscipy</category></item><item><title>A tutorial on segmentation</title><link>http://emmanuelle.github.io/a-tutorial-on-segmentation.html</link><description>&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h1 id="Segmentation-of-low-contrast-touching-objects"&gt;Segmentation of low-contrast touching objects&lt;a class="anchor-link" href="#Segmentation-of-low-contrast-touching-objects"&gt;&amp;#182;&lt;/a&gt;&lt;/h1&gt;&lt;p&gt;This tutorial explains how to segment an image composed of similar-looking objects connected by low-contrast boundaries, using &lt;code&gt;scikit-image&lt;/code&gt; as well as other modules of the Scientific Python stack.&lt;/p&gt;
+&lt;p&gt;&lt;img src="images/grains_crop.png" width="250" align="left"&gt;
+&lt;img src="images/grains_automatic_segmentation.png" width="250"&gt;&lt;/p&gt;
+&lt;p&gt;I started working on this example when a colleague told me that his team had trouble with the segmentation. I first thought that obtaining a good segmentation would be straightforward, since the eye detects very well structures such as the grains of interest here. It turned out that I had been way too optimistic, since the low contrast between edges and grains prohibited using simple methods, such as edge detection with Canny filter.&lt;/p&gt;
+&lt;p&gt;If you have other ideas on how to perform a good segmentation in a reasonable time, please share your thoughts, for example on Twitter (@EGouillart).&lt;/p&gt;
+&lt;p&gt;If you're just getting started with image processing, you're very welcome to peruse through this tutorial, but it might not be the best place to start learning about image segmentation. Indeed, basic concepts of image processing are not explained in details. The &lt;a href="http://scikit-image.org/docs/dev/auto_examples/"&gt;example gallery&lt;/a&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Emmanuelle Gouillart</dc:creator><pubDate>Tue, 14 Jul 2015 00:00:00 +0200</pubDate><guid isPermaLink="false">tag:emmanuelle.github.io,2015-07-14:/a-tutorial-on-segmentation.html</guid><category>misc</category><category>Python</category><category>image processing</category></item><item><title>Welcome</title><link>http://emmanuelle.github.io/welcome.html</link><description>&lt;p&gt;Welcome to my new blog! I'm just getting started with it, so it's likely
+that themes, fonts, and general information will evolve quite a lot
+during the coming weeks. Please bear with me and show a little patience!&lt;/p&gt;
+&lt;p&gt;&lt;img alt="construction" src="images/construction.png"&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Emmanuelle Gouillart</dc:creator><pubDate>Sat, 04 Jul 2015 00:00:00 +0200</pubDate><guid isPermaLink="false">tag:emmanuelle.github.io,2015-07-04:/welcome.html</guid><category>misc</category></item><item><title>Why you (and your colleagues) should go to Euroscipy</title><link>http://emmanuelle.github.io/first.html</link><description>&lt;p&gt;Early-bird registration for the &lt;a href="https://www.euroscipy.org/2015/"&gt;Euroscipy
+conference&lt;/a&gt; ends this Tuesday (July
+7th): did you register already? The annual European conference on
+Scientific Python will take place in Cambridge UK, from August 26 to 29.
+Euroscipy 2015 is the 8th edition of the conference, with previous
+editions taking place in Leipzig, Paris and Brussels.&lt;/p&gt;
+&lt;p&gt;Euroscipy includes two days of
+&lt;a href="https://www.euroscipy.org/2015/schedule/esp2015-tutorials/"&gt;tutorials&lt;/a&gt;
+(August 26-27), which are incredibly good value: for 50 or 100 GBP
+(academic/student or regular price), you will take part in hands-on
+tutorials given by teachers with a proficient knowledge of the Scientific
+Python ecosystem. Tutorial speakers are often developers of the main
+scientific python packages on top of being seasoned users of the
+ecosystem. They give these tutorials for free, because they believe that
+Euroscipy is an efficient way to train a large number of people in one
+event. In comparison, companies rightly charge several thousands of euros
+for multi-day …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Emmanuelle Gouillart</dc:creator><pubDate>Fri, 03 Jul 2015 00:00:00 +0200</pubDate><guid isPermaLink="false">tag:emmanuelle.github.io,2015-07-03:/first.html</guid><category>miscellaneous</category><category>python</category><category>science</category><category>euroscipy</category></item></channel></rss>

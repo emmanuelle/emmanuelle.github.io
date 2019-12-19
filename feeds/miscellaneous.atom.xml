@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Images and words, Emmanuelle Gouillart's blog - miscellaneous</title><link href="http://emmanuelle.github.io/" rel="alternate"></link><link href="http://emmanuelle.github.io/feeds/miscellaneous.atom.xml" rel="self"></link><id>http://emmanuelle.github.io/</id><updated>2016-03-20T00:00:00+01:00</updated><entry><title>Euroscipy tutorials: results from the opinion poll</title><link href="http://emmanuelle.github.io/euroscipy-tutorials-results-from-the-opinion-poll.html" rel="alternate"></link><published>2016-03-20T00:00:00+01:00</published><updated>2016-03-20T00:00:00+01:00</updated><author><name>Emmanuelle Gouillart</name></author><id>tag:emmanuelle.github.io,2016-03-20:/euroscipy-tutorials-results-from-the-opinion-poll.html</id><summary type="html">&lt;p&gt;As the new tutorial chair for the next &lt;a href="https://www.euroscipy.org/"&gt;Euroscipy
+conference&lt;/a&gt;, I was thinking this January
+about the difficult choice of possible topics for advanced tutorials.
+Euroscipy is the annual European conference on Scientific Python; it is
+organized with two days of tutorials and two days of conference (keynotes
+and contributed talks), with attendees from academia, industry and
+start-ups.&lt;/p&gt;
+&lt;p&gt;While tutorials of the introduction track always covers a core of
+packages and skills that are essential to beginners, advanced users have
+enjoyed quite a large variety of topics during the &lt;a href="https://www.euroscipy.org/2015/schedule/esp2015-tutorials/"&gt;advanced tutorial
+track&lt;/a&gt; of the
+last conference editions. Attendees have various backgrounds and
+expectations, from getting bleeding-edge news about the latest cool
+packages to improving their numerical skills, learning about coding
+best practices, or simply using core packages in a more efficient and
+advanced way. How to find the right balance between topics answering
+these different needs? A friend then suggested …&lt;/p&gt;</summary><content type="html">&lt;p&gt;As the new tutorial chair for the next &lt;a href="https://www.euroscipy.org/"&gt;Euroscipy
+conference&lt;/a&gt;, I was thinking this January
+about the difficult choice of possible topics for advanced tutorials.
+Euroscipy is the annual European conference on Scientific Python; it is
+organized with two days of tutorials and two days of conference (keynotes
+and contributed talks), with attendees from academia, industry and
+start-ups.&lt;/p&gt;
+&lt;p&gt;While tutorials of the introduction track always covers a core of
+packages and skills that are essential to beginners, advanced users have
+enjoyed quite a large variety of topics during the &lt;a href="https://www.euroscipy.org/2015/schedule/esp2015-tutorials/"&gt;advanced tutorial
+track&lt;/a&gt; of the
+last conference editions. Attendees have various backgrounds and
+expectations, from getting bleeding-edge news about the latest cool
+packages to improving their numerical skills, learning about coding
+best practices, or simply using core packages in a more efficient and
+advanced way. How to find the right balance between topics answering
+these different needs? A friend then suggested: hey, why not ask the
+attendees themselves what they would like to learn during tutorials? &lt;/p&gt;
+&lt;p&gt;I quickly set up a list of potential topics, wrote a simple form, and
+called for opinions on Twitter two months ago. I was lucky that this
+message was retweeted enough, and that people seem to care about this
+topic: the form got completed 71 times, which represents about half a
+typical audience for the advanced tutorials of Euroscipy. Quite a good
+score therefore! &lt;/p&gt;
+&lt;p&gt;The results of the poll (which is now closed) can be seen
+&lt;a href="https://docs.google.com/forms/d/1H0vDPNgRVyESM1LYHSXXmunTgorNvVmu_psS56u9MOk/viewanalytics"&gt;here&lt;/a&gt;.
+Note that some topics were not included in the list, since they had been
+presented the year before (like my favorite subject
+&lt;a href="http://scikit-image.org/"&gt;scikit-image&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;Since several outcomes of the poll were quite counter-intuitive to me,
+I'm really glad I got so much feedback from an audience that I hope is
+quite diverse -- of course there must be some bias due to the use of
+Twitter for communication, but I still hope that the poll is a good proxy
+for what people would like to see.&lt;/p&gt;
+&lt;p&gt;A few lessons from this poll&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;advanced tutorials on core packages or skills, such as advanced NumPy,
+  Python, and scientific plotting, all score very high. &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;software development methods (how to turn your bunch of scripts into an
+efficient and reliable package that you can share with others) also
+look quite popular, as shown by the high scores of Testing, Packaging and
+Parallel computing. &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;machine-learning-related topics, such as scikit-learn or neural
+  nets/deep learning, were popular as well.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;version control did not seem a priority to poll respondents -- let's
+  hope it means that most scientists now master version control (although
+this would somewhat contradict my experience!).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;unsurprisingly, topics that are slightly more specialized, such as
+  natural language processing or linear algebra, were not as popular as
+less specialized subjects. I might pick one or two of these topics that
+are of high interest to a fraction of the audience, to beat the tyranny
+of the majority (of course, a poll is meant to obtain what the majority
+thinks!).&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;So, what's next? Now I will be looking for speakers for the most popular
+topics revealed by the poll, plus a couple of others for which I'll claim a
+wild card privilege as tutorial chair :-). After looking at the poll
+results, if you feel like giving a tutorial at Euroscipy 2016 (Erlangen,
+Germany, August 23-27), please contact me, preferably by e-mail
+(firtsname.lastname@nsup.org). There should also be a more official call
+for talks and tutorials on the Euroscipy website in a couple of
+days/weeks.&lt;/p&gt;
+&lt;p&gt;If you feel like commenting on the results of the opinion poll, please
+leave a comment on this blog post. I would like to finish with a big
+thank you to all the people who took the time to complete the opinion
+poll: it really helped!  &lt;/p&gt;</content><category term="miscellaneous"></category><category term="python"></category><category term="science"></category><category term="euroscipy"></category><category term="tutorials"></category></entry><entry><title>Tools and tips for documenting scientific Python projects</title><link href="http://emmanuelle.github.io/tools-and-tips-for-documenting-scientific-python-projects.html" rel="alternate"></link><published>2015-12-22T00:00:00+01:00</published><updated>2015-12-22T00:00:00+01:00</updated><author><name>Emmanuelle Gouillart</name></author><id>tag:emmanuelle.github.io,2015-12-22:/tools-and-tips-for-documenting-scientific-python-projects.html</id><summary type="html">&lt;p&gt;A colleague recently asked me for tips for the documentation of his new
+in-house Python project. Dozens of webpages explain
+&lt;a href="http://docs.writethedocs.org/writing/beginners-guide-to-docs/"&gt;why&lt;/a&gt; and
+&lt;a href="http://docs.python-guide.org/en/latest/writing/documentation/"&gt;how to&lt;/a&gt;
+write documentation, including for Python packages. Nevertheless,
+scientific projects have some specificities, so I thought it could be
+worth sharing here some points that we discussed together. Don't think
+that these tips only apply to "big projects": as long as you expect other
+people than yourself to use the code (or to develop it), good
+documentation can be a game-changer no matter the scale of the project.&lt;/p&gt;
+&lt;p&gt;A first and counter-intuitive point is that &lt;strong&gt;code matters as much as "real
+documentation"&lt;/strong&gt;. A &lt;a href="http://hintjens.com/blog:94"&gt;clear, concise and well-thought
+API&lt;/a&gt; will make your users love your project
+much more that pages of explanations attempting to make up for a
+cluttered or clumsy API. As for developers, short functions, or variable
+names used consistently over the package, are more efficient …&lt;/p&gt;</summary><content type="html">&lt;p&gt;A colleague recently asked me for tips for the documentation of his new
+in-house Python project. Dozens of webpages explain
+&lt;a href="http://docs.writethedocs.org/writing/beginners-guide-to-docs/"&gt;why&lt;/a&gt; and
+&lt;a href="http://docs.python-guide.org/en/latest/writing/documentation/"&gt;how to&lt;/a&gt;
+write documentation, including for Python packages. Nevertheless,
+scientific projects have some specificities, so I thought it could be
+worth sharing here some points that we discussed together. Don't think
+that these tips only apply to "big projects": as long as you expect other
+people than yourself to use the code (or to develop it), good
+documentation can be a game-changer no matter the scale of the project.&lt;/p&gt;
+&lt;p&gt;A first and counter-intuitive point is that &lt;strong&gt;code matters as much as "real
+documentation"&lt;/strong&gt;. A &lt;a href="http://hintjens.com/blog:94"&gt;clear, concise and well-thought
+API&lt;/a&gt; will make your users love your project
+much more that pages of explanations attempting to make up for a
+cluttered or clumsy API. As for developers, short functions, or variable
+names used consistently over the package, are more efficient than
+commenting through the code. As &lt;a href="http://hintjens.com/blog:96"&gt;Pieter Hintjens puts
+it,&lt;/a&gt; "&lt;em&gt;Documenting code is like writing
+"Tasty!" on the side of a coffee cup. If the code isn't readable on a
+grey Monday morning before coffee, chuck it out and start again. What you
+document are APIs (...). That is fine. Explaining what this funky loop
+does is not fine.&lt;/em&gt;"  &lt;/p&gt;
+&lt;p&gt;A second useful tip is to look at what others are doing, which often
+means &lt;strong&gt;using standard tools&lt;/strong&gt;. Most Python projects use
+&lt;a href="http://sphinx-doc.org/"&gt;Sphinx&lt;/a&gt; to generate their documentation from
+plain-text files. Just use it. Using a standard tool will save you a lot
+of time, and will prevent you from reinventing the square wheel. For
+example, Sphinx &lt;a href="http://sphinx-doc.org/man/sphinx-apidoc.html"&gt;generates automatically pages documenting your
+API&lt;/a&gt;. For Scientific Python
+packages, another gold standard is the &lt;a href="https://github.com/numpy/numpy/blob/master/doc/HOWTO_DOCUMENT.rst.txt#sections"&gt;NumPy docstring
+standard&lt;/a&gt; (see a typical example below).
+As a scientific Python user, do you often read docstrings of functions
+from the standard Python library and wish they would follow NumPy's
+guidelines, such as listing parameters and providing examples? Your users
+too will appreciate the clear and comprehensive docstrings if you use the
+NumPy standard. Moreover, they will already be used to the standard.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;A typical NumPy docstring: all that you need... and nothing else!&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;np.zeros(shape, dtype=float, order=&amp;#39;C&amp;#39;)
+
+Return a new array of given shape and type, filled with zeros.
+
+Parameters
+----------
+shape : int or sequence of ints
+    Shape of the new array, e.g., ``(2, 3)`` or ``2``.
+dtype : data-type, optional
+    The desired data-type for the array, e.g., `numpy.int8`.  Default is
+    `numpy.float64`.
+order : {&amp;#39;C&amp;#39;, &amp;#39;F&amp;#39;}, optional
+    Whether to store multidimensional data in C- or Fortran-contiguous
+    (row- or column-wise) order in memory.
+
+Returns
+-------
+out : ndarray
+    Array of zeros with the given shape, dtype, and order.
+
+See Also
+--------
+zeros_like : Return an array of zeros with shape and type of input.
+ones_like : Return an array of ones with shape and type of input.
+empty_like : Return an empty array with shape and type of input.
+ones : Return a new array setting values to one.
+empty : Return a new uninitialized array.
+
+Examples
+--------
+&amp;gt;&amp;gt;&amp;gt; np.zeros(5)
+array([ 0.,  0.,  0.,  0.,  0.])
+
+&amp;gt;&amp;gt;&amp;gt; np.zeros((5,), dtype=numpy.int)
+array([0, 0, 0, 0, 0])
+
+&amp;gt;&amp;gt;&amp;gt; np.zeros((2, 1))
+array([[ 0.],
+       [ 0.]])
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;A picture being worth a thousand words, some scientific Python packages
+have a &lt;strong&gt;graphical gallery of examples&lt;/strong&gt;, with graphical thumbnails that link
+to scripts generating the thumbnails. Visualization packages such as
+&lt;a href="http://matplotlib.org/gallery.html"&gt;Matplotlib&lt;/a&gt; and
+&lt;a href="http://docs.enthought.com/mayavi/mayavi/auto/examples.html"&gt;Mayavi&lt;/a&gt; were
+among the first packages to propose such a gallery, then came other
+packages such as
+&lt;a href="http://scikit-learn.org/stable/auto_examples/index.html"&gt;scikit-learn&lt;/a&gt;,
+&lt;a href="http://scikit-image.org/docs/dev/auto_examples/"&gt;scikit-image&lt;/a&gt;, or
+&lt;a href="http://stanford.edu/~mwaskom/software/seaborn-dev/examples/index.html"&gt;seaborn&lt;/a&gt;.
+Although some applications seem better suited than others to graphical
+visualizations, meaningful visualizations are important for all. And once
+again, users will love it: in &lt;a href="http://scikit-image.org/"&gt;scikit-image online documentation&lt;/a&gt;, gallery examples represent
+55% or page visits as of last month. The good news is you can now &lt;strong&gt;include
+a gallery of examples in your project at minimal cost&lt;/strong&gt;, thanks to the
+&lt;a href="http://sphinx-gallery.readthedocs.org/en/latest/"&gt;sphinx-gallery
+project&lt;/a&gt;: put together
+a couple of Python scripts generating matplotlib figures, and
+sphinx-gallery will transform these into a nice gallery for your project.
+No excuses any more for not having a beautiful gallery showcasing what
+your package can do for users!&lt;/p&gt;
+&lt;p&gt;&lt;img alt="scikit-image example gallery" src="images/skimage_gallery.png" title="scikit-image example gallery"&gt;&lt;/p&gt;
+&lt;p&gt;My final point could be coined as "don't expect users to be smart". You
+don't want to be smart when you're looking for documentation. In
+particular, you might want redundancy in your documentation
+(cross-linking between gallery examples, docstrings, tutorials, etc.), to
+be sure that users find the information they are looking for.&lt;/p&gt;
+&lt;p&gt;If you have other recommendations for a good documentation, please share
+them in the comments!&lt;/p&gt;</content><category term="miscellaneous"></category><category term="python"></category><category term="science"></category><category term="euroscipy"></category><category term="documentation"></category></entry><entry><title>What is your typical image processing usecase?</title><link href="http://emmanuelle.github.io/what-is-your-typical-image-processing-usecase.html" rel="alternate"></link><published>2015-08-26T00:00:00+02:00</published><updated>2015-08-26T00:00:00+02:00</updated><author><name>Emmanuelle Gouillart</name></author><id>tag:emmanuelle.github.io,2015-08-26:/what-is-your-typical-image-processing-usecase.html</id><summary type="html">&lt;p&gt;Image processing is used for a variety of applications, from the
+segmentation of organs in medical imaging to the detection of objects in
+astrophysics. At least, that's what we say to introduce the applications
+of image processing during presentations on
+&lt;a href="http://scikit-image.org/"&gt;scikit-image&lt;/a&gt;, such as today's tutorial at
+&lt;a href="https://www.euroscipy.org/2015/schedule/presentation/70/"&gt;Euroscipy
+2015&lt;/a&gt;. For such
+tutorials, we select applications that we think are typical of broad
+interest, such as the segmentation of objects. But let's face it, it is
+all too easy to mix up what is typical and of broad /generalinterest, and
+what is the kind of problems that ones encounters in his/her own work.&lt;/p&gt;
+&lt;p&gt;Therefore, I would love to hear more about typical problems that
+people wish to solve using image processing. If you're using image
+processing, please leave a comment on this post, including:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;a few words about the field and the application&lt;/li&gt;
+&lt;li&gt;a link to a typical image, if possible …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;p&gt;Image processing is used for a variety of applications, from the
+segmentation of organs in medical imaging to the detection of objects in
+astrophysics. At least, that's what we say to introduce the applications
+of image processing during presentations on
+&lt;a href="http://scikit-image.org/"&gt;scikit-image&lt;/a&gt;, such as today's tutorial at
+&lt;a href="https://www.euroscipy.org/2015/schedule/presentation/70/"&gt;Euroscipy
+2015&lt;/a&gt;. For such
+tutorials, we select applications that we think are typical of broad
+interest, such as the segmentation of objects. But let's face it, it is
+all too easy to mix up what is typical and of broad /generalinterest, and
+what is the kind of problems that ones encounters in his/her own work.&lt;/p&gt;
+&lt;p&gt;Therefore, I would love to hear more about typical problems that
+people wish to solve using image processing. If you're using image
+processing, please leave a comment on this post, including:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;a few words about the field and the application&lt;/li&gt;
+&lt;li&gt;a link to a typical image, if possible &lt;/li&gt;
+&lt;li&gt;the problem that you are trying to solve&lt;/li&gt;
+&lt;li&gt;and optionally, the typical building blocks of your image processing
+  workflow (contrast enhancement, denoising, edge filtering, etc.).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Thank you very much for your time, and for any comment that you might
+share on how you use image processing. I'm interested in your thoughts
+whether you're already a scikit-image user. Of course, feedback on how
+you use scikit-image will be extremely interesting if you are a user.&lt;/p&gt;
+&lt;p&gt;Beyond to contributing to my own enlightement, this survey will hopefully
+help us to design
+&lt;a href="https://github.com/scikit-image/skimage-tutorials"&gt;tutorials&lt;/a&gt; that are
+even more meaningful to a broad audience, write better documentation and
+more &lt;a href="http://scikit-image.org/docs/dev/auto_examples/"&gt;examples for the
+gallery&lt;/a&gt;, and maybe add
+some new features to the package, if there is a broad interest for
+features that are missing and in the scope of the package. &lt;/p&gt;</content><category term="miscellaneous"></category><category term="python"></category><category term="science"></category><category term="scikit-image"></category><category term="euroscipy"></category></entry><entry><title>Why you (and your colleagues) should go to Euroscipy</title><link href="http://emmanuelle.github.io/first.html" rel="alternate"></link><published>2015-07-03T00:00:00+02:00</published><updated>2015-07-03T00:00:00+02:00</updated><author><name>Emmanuelle Gouillart</name></author><id>tag:emmanuelle.github.io,2015-07-03:/first.html</id><summary type="html">&lt;p&gt;Early-bird registration for the &lt;a href="https://www.euroscipy.org/2015/"&gt;Euroscipy
+conference&lt;/a&gt; ends this Tuesday (July
+7th): did you register already? The annual European conference on
+Scientific Python will take place in Cambridge UK, from August 26 to 29.
+Euroscipy 2015 is the 8th edition of the conference, with previous
+editions taking place in Leipzig, Paris and Brussels.&lt;/p&gt;
+&lt;p&gt;Euroscipy includes two days of
+&lt;a href="https://www.euroscipy.org/2015/schedule/esp2015-tutorials/"&gt;tutorials&lt;/a&gt;
+(August 26-27), which are incredibly good value: for 50 or 100 GBP
+(academic/student or regular price), you will take part in hands-on
+tutorials given by teachers with a proficient knowledge of the Scientific
+Python ecosystem. Tutorial speakers are often developers of the main
+scientific python packages on top of being seasoned users of the
+ecosystem. They give these tutorials for free, because they believe that
+Euroscipy is an efficient way to train a large number of people in one
+event. In comparison, companies rightly charge several thousands of euros
+for multi-day …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Early-bird registration for the &lt;a href="https://www.euroscipy.org/2015/"&gt;Euroscipy
+conference&lt;/a&gt; ends this Tuesday (July
+7th): did you register already? The annual European conference on
+Scientific Python will take place in Cambridge UK, from August 26 to 29.
+Euroscipy 2015 is the 8th edition of the conference, with previous
+editions taking place in Leipzig, Paris and Brussels.&lt;/p&gt;
+&lt;p&gt;Euroscipy includes two days of
+&lt;a href="https://www.euroscipy.org/2015/schedule/esp2015-tutorials/"&gt;tutorials&lt;/a&gt;
+(August 26-27), which are incredibly good value: for 50 or 100 GBP
+(academic/student or regular price), you will take part in hands-on
+tutorials given by teachers with a proficient knowledge of the Scientific
+Python ecosystem. Tutorial speakers are often developers of the main
+scientific python packages on top of being seasoned users of the
+ecosystem. They give these tutorials for free, because they believe that
+Euroscipy is an efficient way to train a large number of people in one
+event. In comparison, companies rightly charge several thousands of euros
+for multi-day trainings in scientific Python. Disclaimer: obviously,
+training given during the tutorials cannot be as personalized as
+trainings focusing on small groups, so I'm not saying that people should
+attend tutorials only instead of on-demand professional training! Go for
+the on-demand training if your lab/company can afford it, of course.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Euroscipy 2014, picture by Ian Oswald" src="images/euro2.jpg" title="Picture by Ian Oswald"&gt;&lt;/p&gt;
+&lt;p&gt;Skills in scientific computing become more and more valuable in public
+labs and companies, with the ever-increasing volume and variety of
+scientific data and the explosion of the data-based digital economy. Yet
+the number of science and engineering students getting proper academic
+training in scientific computing is still astonishingly low. Therefore,
+most scientists use self-taught scientific computing skills. The
+simplicity of the Python language might lure many into thinking that
+they master programming well enough, but using NumPy efficiently, for
+example, requires some effort. It happens to me quite often that a
+colleague from the lab shows me a piece of Python code he or she's
+struggling with, and that classical NumPy machinery such as masking with
+a boolean array, or rolling over array axes, makes it trivial. Trainings
+such as Euroscipy's tutorials can therefore boost your learning curve, by
+being introduced to a consistent set of good practices and having the
+opportunity to test these new skills thanks to hands-on exercises. I'm
+therefore convinced that there is a large pool of students, researchers
+in universities or company employees, that can benefit greatly from
+attending Euroscipy's tutorials. Nowadays, good scientific computing
+skills can contribute significantly to the performance of a lab or a
+company, and trying to improve the average computing skill level should
+be among the top priorities of every scientific group leader.&lt;/p&gt;
+&lt;p&gt;More advanced users will also have exciting subjects to get their teeth
+into, with an advanced tutorial track that includes a thorough Cython
+tutorial, statistics in Python, or a tutorial on image processing
+scikit-image given by Juan Nunez-Iglesias and yours truly. For users
+that master well the core of Python and NumPy, two possible areas of
+improvement are usually 1) better programming skills (for example using
+good practices such as testing and version control or mastering simple
+optimization strategies such as advanced NumPy or Cython) and 2) and
+better knowledge of scientific computing, both on the algorithmic and
+implementation side. I always learn a lot on the two sides when attending
+Euroscipy tutorials.&lt;/p&gt;
+&lt;p&gt;Besides the quality of the training delivered at Euroscipy, another bonus
+of the conference is the interaction with other participants. Euroscipy's
+audience is a crowd of enthusiastic and skilled people, coming from
+diverse fields. You can actually learn almost as much from chatting with
+people about your experience, best practices (and frustrations), as from
+tutorials and talks. Social events provide a great opportunity for
+chatting and networking, in a relaxed and friendly atmosphere. I
+appreciate very much the mixed crowd of people from academic labs,
+start-ups and industry, which is quite unique among the conferences I
+attend. Students can improve their job perspectives by meeting future
+employers, and by realizing which areas of science and industry hire
+people with scientific computing skills. My only regret is that the
+gender ratio is not balanced enough, but women will feel comfortable in a
+crowd that is welcoming, friendly and respectful. It is my hope that more
+and more female scientists will come to Euroscipy to become power-users
+of scientific Python.&lt;/p&gt;
+&lt;p&gt;Finally, if you can't make it this year to Euroscipy, you can still
+benefit from the &lt;a href="http://scipy-lectures.github.io/"&gt;SciPy lecture notes&lt;/a&gt;,
+a large set of tutorials that were realized for previous Euroscipy
+conferences. The SciPy lecture notes are a comprehensive set of
+tutorials, starting from the core of Scientific Python (mastering the
+Python language and NumPy) to more advanced topics (advanced NumPy,
+optimizing code) and specialized packages (scikit-learn, scikit-image).
+When a new person in the lab wishes to start learning Python for science,
+I usually direct her to the Scipy lecture notes to get started.&lt;/p&gt;
+&lt;p&gt;Hope to see you at Euroscipy 2015!&lt;/p&gt;</content><category term="miscellaneous"></category><category term="python"></category><category term="science"></category><category term="euroscipy"></category></entry></feed>
